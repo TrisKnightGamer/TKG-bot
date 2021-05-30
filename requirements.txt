@@ -1,0 +1,6 @@
+discord
+docutils
+discord.py
+asyncio
+python-dotenv
+mcstatus
