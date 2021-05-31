@@ -23,6 +23,7 @@ bot_ava = "https://cdn.discordapp.com/avatars/780942434154184755/22e00d58a45d4ce
 client = discord.Client()
 bot = Bot(command_prefix=['!'])
 bot.remove_command("help")
+
 @bot.command(name='lock')
 async def lock(ctx):
     f = open('voice_room.json', "r+", encoding="utf8")
